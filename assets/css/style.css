@@ -1,5 +1,7 @@
 /* DEBUG----------------------------------------------- */
 
+
+
 header{
  padding: 10px 0;
 }
@@ -56,7 +58,9 @@ body {
 a {
   text-decoration: none;
 }
-
+._w {
+  color: white;
+} 
 /* ---------------------------------------------------- */
 
 /* HEADER---------------------------------------------- */
@@ -128,6 +132,11 @@ header .logo {
 
 .blu-mask {
   background-color: #001632ba;
+  color: white;
+}
+
+.blu-mask span {
+  display: none;
 }
 
 
@@ -162,6 +171,17 @@ header .right_nav>a>i {
 
 header .logo {
   display: block;
+}
+
+
+.blu-mask span {
+  display: inline-block;
+  padding-left: 13px;
+}
+
+
+.blu-mask a:last-child {
+  display: none;
 }
 
 }
