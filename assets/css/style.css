@@ -1,0 +1,50 @@
+/* DEBUG----------------------------------------------- */
+
+header{
+  height: 90px;
+}
+
+.debug {
+  border: 1px solid black;
+  background-color: brown;
+}
+
+.debug2 {
+  border: 1px solid black;
+  background-color: green;
+}
+
+
+
+/* ---------------------------------------------------- */
+
+
+/* HEADER---------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------- */
+
+
+/* MAIN---------------------------------------------- */
+.main_wrapper {
+  height: calc(100vh - 90px);
+}
+
+
+/* sidebar left */
+
+.side_bar {
+  width: 90px;
+}
+
+/* main content */
+
+.main_content {
+  width:calc(100% - 90px) ;
+}
+
+
+
+/* ---------------------------------------------------- */
