@@ -27,9 +27,21 @@ header{
 .debug4 {
   background-color: gold;
   border: 1px solid black;
-  height: 400px;
+  height: 1000px;
 }
 
+.debug5 {
+  border: 1px solid black;
+  border-radius: 30px;
+  
+  height: 450px;
+  text-align: center;
+  
+}
+
+.debug5 h1 {
+  line-height: 420px;
+}
 
 
 
@@ -49,6 +61,7 @@ header{
   height: calc(100vh - 90px);
 }
 
+/* col-12 col-lg-6 */
 
 /* sidebar left */
 
