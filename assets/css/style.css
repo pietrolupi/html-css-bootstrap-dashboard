@@ -33,7 +33,8 @@ header{
 .debug5 {
   border: 1px solid black;
   border-radius: 30px;
-  
+  margin: 20px 0;
+  background-color: rgba(245, 222, 179, 0.475);
   height: 450px;
   text-align: center;
   
@@ -50,6 +51,39 @@ header{
 
 /* HEADER---------------------------------------------- */
 
+header .nav img {
+  width: 60px;
+}
+
+#custom-search input[type="search"] {
+  
+  height: 50px;
+  background-color: #e5e5e5;
+  margin-left: 40px;
+}
+
+.custom-search-container {
+  width: 90%;
+}
+
+.nav {
+  height: 90px;
+  width: 100%;
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown .fa-bell {
+  color: goldenrod;
+}
+
+.custom-drop button {
+  background-color: transparent;
+  border: none;
+}
 
 
 
