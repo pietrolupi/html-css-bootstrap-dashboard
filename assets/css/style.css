@@ -1,7 +1,7 @@
 /* DEBUG----------------------------------------------- */
 
 header{
-  height: 90px;
+ padding: 10px 0;
 }
 
 .main_nav {
@@ -63,7 +63,7 @@ header .nav img {
 }
 
 .custom-search-container {
-  width: 90%;
+  width: 100%;
 }
 
 .nav {
@@ -78,6 +78,7 @@ header .nav img {
 
 .dropdown .fa-bell {
   color: goldenrod;
+  font-size: 1.1rem;
 }
 
 .custom-drop button {
@@ -85,6 +86,10 @@ header .nav img {
   border: none;
 }
 
+header .right_nav>i {
+  margin: 0 10px;
+  display: none;
+}
 
 
 /* ---------------------------------------------------- */
@@ -123,6 +128,10 @@ header .nav img {
 
 .main_content {
   width:calc(100% - 150px) ;
+}
+
+header .right_nav>i {
+  display: block;
 }
 
 }
