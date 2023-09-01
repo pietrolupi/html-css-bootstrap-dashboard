@@ -86,6 +86,8 @@ a {
 
 .cstm-btn {
   border-color: white;
+  padding: 3px 10px;
+  margin-left: 13px;
 }
 
 
@@ -111,10 +113,15 @@ input[type="search"] {
   outline: none;
 }
 
+.custom-search-container input::placeholder {
+  font-size: 0.75rem;
+}
+
 .nav {
   height: 90px;
   width: 100%;
 }
+
 
 
 .dropdown-toggle::after {
@@ -142,6 +149,7 @@ header .logo {
   color:#646161;
   margin: 0 10px;
   display: none;
+  font-size: 0.9rem;
 }
 
 /* ---------------------------------------------------- */
@@ -157,12 +165,12 @@ header .logo {
 
 .side_bar {
   width: 65px;
-  background-image: url(../img/sidebar-bg.png);
+  background-color: #001632f0;
 }
 
 .blu-mask {
-  background-color: #001632ba;
-
+  
+  background-image: url(../img/sidebar-bg.png);
 }
 
 .blu-mask span {

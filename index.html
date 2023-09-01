@@ -25,9 +25,9 @@
       <div class="container-fluid _bw  d-flex align-items-center h-100 w-100">
         <img src="assets/img/mobile-logo.png" alt="">
         
-        <a href="#" class="logo">boolean</a>
+        <a href="#" class="logo fs-5">boolean</a>
        
-        <div class="custom-search-container ms-2 _bgrey rounded d-flex align-items-center ">
+        <div class="custom-search-container ms-3 _bgrey rounded d-flex align-items-center ">
           <a href="#" class="_b"><i class="fa-solid fa-magnifying-glass ms-2"></i></a>
           <input type="search" placeholder="Prova a cercare: Lezioni di Laravel" class="border-0 w-100 mx-2 _bgrey">
         </div>
@@ -81,7 +81,7 @@
         <!-- main-top -->
         <div class="main_nav _w d-flex justify-content-between w-100">
           
-          <div class="pe-4">
+          <div class="pe-4 pb-3">
             <span>Nuovo studente</span>
             <button class="btn btn-primary cstm-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
             <!-- CANVAS(r to l) -->
@@ -91,126 +91,127 @@
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
-              
-                <div class="container-fluid">
-                  <div class="row">
+                <form action="GET">
+                  <div class="container-fluid">
+                    <div class="row">
 
-                    <div class="col-12 col-md-6">
+                      <div class="col-12 col-md-6">
+                        
+                        <label for="inputPassword5" class="form-label">Nome</label>
+                        <input class="form-control" type="text"  aria-label="default input example">
+
+                      </div>
+
+                      <div class="col-6">
+                        <label for="inputPassword5" class="form-label">Cognome</label>
+                        <input class="form-control" type="text"  aria-label="default input example">
+                      </div>
+
                       
-                      <label for="inputPassword5" class="form-label">Nome</label>
-                      <input class="form-control" type="text"  aria-label="default input example">
-
-                    </div>
-
-                    <div class="col-6">
-                      <label for="inputPassword5" class="form-label">Cognome</label>
-                      <input class="form-control" type="text"  aria-label="default input example">
-                    </div>
-
-                    
-                    <div class="col-6 pt-3">
-                      <label for="inputPassword5" class="form-label">Email</label>
-                      <div class="input-group mb-3">
-                      <span class="input-group-text" id="basic-addon1">@</span>
-                      <input type="email" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
+                      <div class="col-6 pt-3">
+                        <label for="inputPassword5" class="form-label">Email</label>
+                        <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                        
+                      </div>
                       
-                    </div>
-                    
-                    <div class="col-6 pt-3">
-                      <label for="inputPassword5" class="form-label">Password</label>
-                      <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                      <div class="col-6 pt-3">
+                        <label for="inputPassword5" class="form-label">Password</label>
+                        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 
-                    </div>
+                      </div>
 
-                    <div class="col-6">
-                      <label for="inputPassword5" class="form-label">Email</label>
-                      <div class="input-group mb-3">
-                      <span class="input-group-text" id="basic-addon1">@</span>
-                      <input type="email" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
-                    </div>
+                      <div class="col-6">
+                        <label for="inputPassword5" class="form-label">Email</label>
+                        <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                        
+                      </div>
                       
-                    </div>
-                    
-                    <div class="col-6">
-                      <label for="inputPassword5" class="form-label">Password</label>
-                      <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                      <div class="col-6">
+                        <label for="inputPassword5" class="form-label">Password</label>
+                        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 
-                    </div>
-                    <div class="col-12">
-                      <label for="inputPassword5" class="form-label">Indirizzo</label>
-                      <input class="form-control" type="text"  aria-label="default input example">
-                    </div>
+                      </div>
+                      <div class="col-12">
+                        <label for="inputPassword5" class="form-label">Indirizzo</label>
+                        <input class="form-control" type="text"  aria-label="default input example">
+                      </div>
 
-                    <div class="col-6 pt-3">
-                      <label for="inputPassword5" class="form-label">Città</label>
-                      <input class="form-control" type="text"  aria-label="default input example">
-                    </div>
+                      <div class="col-6 pt-3">
+                        <label for="inputPassword5" class="form-label">Città</label>
+                        <input class="form-control" type="text"  aria-label="default input example">
+                      </div>
 
-                    <div class="col-3 pt-3">
-                      <label for="inputPassword5" class="form-label">Stato</label>
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected>Scegli</option>
-                        <option value="1">Italia</option>
-                        <option value="2">Ecuador</option>
-                        <option value="3">Kazakistan</option>
-                        <option value="1">India</option>
-                        <option value="2">Monaco</option>
-                        <option value="3">Ucraina</option>
-                        <option value="1">Spagna</option>
-                        <option value="2">Francia</option>
-                        <option value="3">Colombia</option>
-                      </select>
-                    </div>
+                      <div class="col-3 pt-3">
+                        <label for="inputPassword5" class="form-label">Stato</label>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Scegli</option>
+                          <option value="1">Italia</option>
+                          <option value="2">Ecuador</option>
+                          <option value="3">Kazakistan</option>
+                          <option value="1">India</option>
+                          <option value="2">Monaco</option>
+                          <option value="3">Ucraina</option>
+                          <option value="1">Spagna</option>
+                          <option value="2">Francia</option>
+                          <option value="3">Colombia</option>
+                        </select>
+                      </div>
 
-                    <div class="col-2 pt-3">
-                      <label for="inputPassword5" class="form-label">CAP</label>
-                      <input class="form-control" type="text"  aria-label="default input example">
-                    </div>
+                      <div class="col-2 pt-3">
+                        <label for="inputPassword5" class="form-label">CAP</label>
+                        <input class="form-control" type="text"  aria-label="default input example">
+                      </div>
 
-                    <div class="col-12">
-                      <div class="mb-3 mt-3">
-                      <label for="formFile" class="form-label">Foto</label>
-                      <input class="form-control" type="file" id="formFile">
+                      <div class="col-12">
+                        <div class="mb-3 mt-3">
+                        <label for="formFile" class="form-label">Foto</label>
+                        <input class="form-control" type="file" id="formFile">
+                        </div>
+                      </div>
+
+                      <div class="col-12 pt-4">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Seleziona per proseguire
+                          </label>
+                        </div> 
+                      </div>
+
+                      <div class="col-12 pt-3">
+                        <button type="button" class="btn btn-primary">Salva</button>
+
+                        <button type="button" class="btn btn-warning">Svuota</button>
+
                       </div>
                     </div>
-
-                    <div class="col-12 pt-4">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Seleziona per proseguire
-                        </label>
-                      </div> 
-                    </div>
-
-                    <div class="col-12 pt-3">
-                      <button type="button" class="btn btn-primary">Salva</button>
-
-                      <button type="button" class="btn btn-warning">Svuota</button>
-
-                    </div>
                   </div>
-                </div>
+                </form>  
                 </div>
             </div>
             <!-- /CANVAS(r to l)-->
 
           </div>
 
-          <div class="d-flex flex-column">
-            <div>
+          <div class="d-flex flex-column pb-4">
+            <div class="pb-2">
               <h2 class="d-inline">Boolean</h2>
               <span class="badge _db rounded-pill bg-primary">Piano Blaze</span>
             </div>
             <div class="d-flex">
-              <span class="badge _db rounded-pill bg-primary">3 app</span>
+              <span class="me-1 badge _db rounded-pill bg-primary">3 app</span>
               <i class="fa-solid fa-angles-right"></i>
 
-              <span class="badge _db rounded-pill d-lg-none">+</span>
+              <span class="ms-1 badge _db rounded-pill d-lg-none">+</span>
 
-              <span class="badge _db rounded-pill d-none d-lg-block">Boolean mobile app</span>
-              <span class="badge _db rounded-pill d-none d-lg-block">Boolean web app</span>
+              <span class="mx-1 badge _db rounded-pill d-none d-lg-block">Boolean mobile app</span>
+              <span class="me-1 badge _db rounded-pill d-none d-lg-block">Boolean web app</span>
               <span class="badge _db rounded-pill d-none d-lg-block">Boolean blog app</span>
             </div>
           
