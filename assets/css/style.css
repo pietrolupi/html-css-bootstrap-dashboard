@@ -186,6 +186,8 @@ header .logo {
 }
 
 
+
+
 /* main content */
 
 .main_content {
@@ -262,6 +264,11 @@ header .logo {
 }
 .main_nav>div:first-child {
   order: 2;
+}
+
+
+.canvas_custom {
+  width: 50% !important;
 }
 
 }
