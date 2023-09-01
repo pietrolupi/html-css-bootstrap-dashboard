@@ -1,13 +1,6 @@
 /* DEBUG----------------------------------------------- */
 
 
-
-header{
- padding: 10px 0;
-}
-
-
-
 .debug {
   border: 1px solid black;
   background-color: brown;
@@ -61,8 +54,10 @@ header{
 /* ---------------------------------------------------- */
 
 /* GENERAL--------------------------------------------- */
+
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
 }
 
 a {
@@ -70,32 +65,46 @@ a {
 }
 ._w {
   color: white;
-} 
+}
+
+._b {
+  color: #2b2f32;
+}
+
+._bw {
+  background-color: white;
+}
+
+._bgrey {
+  background-color: #e5e5e5;
+}
+
 
 ._db {
   background-color: #165bba !important;
 }
 
 
-
-
 /* ---------------------------------------------------- */
 
 /* HEADER---------------------------------------------- */
 
-header .nav img {
-  width: 60px;
-}
 
-#custom-search input[type="search"] {
-  
-  height: 40px;
-  background-color: #e5e5e5;
-  margin-left: 30px;
+header{
+  padding: 10px 0;
+ }
+ 
+header .nav img {
+  width: 40px;
 }
 
 .custom-search-container {
   width: 100%;
+  height: 40px;
+}
+
+input[type="search"] {
+  outline: none;
 }
 
 .nav {
