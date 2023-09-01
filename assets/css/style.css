@@ -77,6 +77,8 @@ a {
 }
 
 
+
+
 /* ---------------------------------------------------- */
 
 /* HEADER---------------------------------------------- */
@@ -159,6 +161,7 @@ header .logo {
 .main_nav {
   flex-direction: column;
   background-color: #1b72e8;
+  padding: 20px 10px;
 }
 
 
@@ -168,6 +171,28 @@ header .logo {
   width:calc(100% - 65px) ;
 }
 
+
+.next-classes {
+  width: 100% !important;
+}
+
+.next-classes td {
+  width: 120px;
+}
+.next-classes tr td:nth-child(4),
+.next-classes tr td:nth-child(3) {
+  width: 80px;
+}
+
+.next-classes td i {
+  font-size: 0.9rem;
+ 
+}
+
+
+.next-classes table img {
+  width: 27px;
+}
 
 
 /* ---------------------------------------------------- */
@@ -206,7 +231,10 @@ header .logo {
 
 .main_nav {
   flex-direction: row;
+  
 }
+
+
 
 .main_nav>div {
   order: 1;
