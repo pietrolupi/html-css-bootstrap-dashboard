@@ -193,6 +193,10 @@ table td,
   color: #3e3f41 !important;
 }
 
+.badge._db:hover {
+  background-color: #0f4188 !important;
+}
+
 
 /* ---------------------------------------------------- */
 
